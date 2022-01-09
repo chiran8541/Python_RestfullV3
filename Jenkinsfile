@@ -14,6 +14,8 @@
 							   mkdir -p /tmp/buckets
                             cp ${workspace}/AWS-CLI/$ScriptfileName /tmp/buckets
 							cd /tmp/buckets
+							pwd
+							ls
                             aws configure set default.region us-east-1
 							chmod 755 $ScriptfileName
 							./$ScriptfileName
