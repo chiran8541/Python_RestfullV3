@@ -1,5 +1,5 @@
  pipeline {
-   agent { label 'ec2-fleet-me005' }
+   agent any
     parameters {
 		string(description: 'ScriptfileName', name: 'ScriptfileName')
     }
