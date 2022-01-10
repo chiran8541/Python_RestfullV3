@@ -13,7 +13,8 @@
 
                                 ls -lrt ${workspace}
 
-                                aws s3 cp --recursive --sse AES256 ${workspace} s3://chiran
+                                #aws s3 cp --recursive --sse AES256 ${workspace} s3://chiran
+				aws s3 cp ${workspace}/AWS-CLI/Jenkinsfile  s3://chiran/AWS-CLI/Jenkinsfile
                                """
                         }
 
