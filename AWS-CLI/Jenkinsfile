@@ -12,10 +12,6 @@
                 script {
                   		sh """                                           
 
-                                . ~/.bash_profile
-
-                                . ~/.bashrc
-
                                 aws configure set default.region us-east-1
 
                                 ls -lrt ${workspace}
