@@ -1,7 +1,7 @@
  pipeline {
    agent any
     stages {
-			stage('Executing the script in develop branch') {
+			stage('Executing the script in develop branch.') {
                  when {
                    branch 'develop'
                }
