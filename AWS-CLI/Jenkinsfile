@@ -1,8 +1,5 @@
  pipeline {
    agent any
-    parameters {
-		string(description: 'ScriptfileName', name: 'ScriptfileName')
-    }
     stages {
 			stage('Executing the script in develop') {
                  when {
